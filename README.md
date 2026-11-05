@@ -1,6 +1,6 @@
 # vi.mock is silently skipped under `viteModuleRunner: false` when the file uses `using` or import attributes
 
-Reproduction for <ISSUE_URL> — vitest 5.1.0, Node.js 24.21.0, pnpm 10.20.0.
+Reproduction for https://github.com/vitest-dev/vitest/issues/11897 — vitest 5.1.0, Node.js 24.21.0, pnpm 10.20.0.
 
 ## Steps
 
