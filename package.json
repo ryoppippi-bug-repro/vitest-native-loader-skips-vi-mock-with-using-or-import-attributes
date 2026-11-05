@@ -1,0 +1,14 @@
+{
+  "name": "vitest-native-loader-skips-vi-mock-with-using-or-import-attributes",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@10.20.0",
+  "scripts": {
+    "repro": "NATIVE=1 vitest run",
+    "repro:official": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "5.1.0"
+  }
+}
